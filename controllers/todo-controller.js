@@ -1,5 +1,4 @@
 const ToDo = require('../models/todo');
-const User = require('../models/user');
 
 
 // Get all the todo task using get method
@@ -58,7 +57,6 @@ const addTodo = async (req, res) =>{
             success: false,
             message: 'Something Wrong in Add Todo Task. Let Try Again'
         })
-        
     }
 }
 
